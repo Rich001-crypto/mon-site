@@ -1,0 +1,12 @@
+{
+  "name": "cemcc-csrad-platform",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/preview.mjs",
+    "check": "node --check worker/index.js && node --check worker/editorial.mjs",
+    "test": "node tests/smoke.mjs"
+  }
+}
